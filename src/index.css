@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e3a8a;
+  padding: 10px 24px;
+  color: white;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.nav-links a.active {
+  background-color: #3b82f6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stat-box {
+  flex: 1;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.stat-box h3 {
+  font-size: 32px;
+  margin: 0;
+  color: #1e3a8a;
+}
+
+.card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.score {
+  font-weight: bold;
+  color: #15803d;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.form input,
+.form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b82f6;
+}
+
+.error {
+  color: #b91c1c;
+  font-weight: bold;
+}
